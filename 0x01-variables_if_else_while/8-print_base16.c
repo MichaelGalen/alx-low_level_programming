@@ -4,14 +4,19 @@
  * main - main block
  * Description: prints all single digit number of base 10
  * starting from 0; followed by new line
- * Return: Always 0 (success)
+ * Return: always 0 (Success)
  */
 int main(void)
 {
-	char c;
-	for (ch = '0'; ch <= 9; ch++)
+	char ch;
+
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		putchar (ch);
+		putchar(ch);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
