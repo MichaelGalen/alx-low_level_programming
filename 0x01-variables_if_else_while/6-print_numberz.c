@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 /**
  * main - main block
  * Description: prinit all single digit number of base 10
