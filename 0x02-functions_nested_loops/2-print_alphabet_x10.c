@@ -4,14 +4,21 @@
  * print_alphabeth_x10 - prints alpha 10 times
  */
 void print_alphabeth_x10(void)
-	{
-		int ten;
-		char la;
+{
+	char ch;
+	int i;
 
-		for (ten = 0; ten <= 9; ten++)
+	i = 0;
+
+	while (i < 10)
+	{
+		ch = 'a';
+		while (ch <= 'z')
 		{
-			for (la = 'a'; la <= 'z'; la++)
-				_putchar(la);
-			_putchar('\n');
+			_putchar(ch);
+			ch++;
 		}
+		_putchar('\n');
+		i++;
 	}
+}
