@@ -2,15 +2,15 @@
 
 /**
  * main - Test function for positive or negative
- * Retur: 0
+ * Return: 0
  */
 
 int main(void)
 {
-	int 1;
+	int i;
 
 	i = 0;
-	positive_or_negative(1);
-
-	return (0);
+	positive_or_negative(i);
+	
+return (0);
 }
